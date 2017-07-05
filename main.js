@@ -223,6 +223,11 @@ $(function() {
 
   // Click events
 
+  $createGame.click(function () {
+    sendGame();
+
+  });
+  
   // Focus input when clicking anywhere on login page
   $loginPage.click(function () {
     $currentInput.focus();
